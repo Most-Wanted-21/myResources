@@ -1194,4 +1194,4 @@
 // const carrot = new Vegetable('carrot');
 // console.log(carrot.name); // Should display 'carrot'
 
-// USE GETTERS AND SETTERS TO CONTROL ACCESS TO AN OBJECT
+// USE GETTERS AND SETTERS TO CONTROL ACCESS TO AN OBJE
