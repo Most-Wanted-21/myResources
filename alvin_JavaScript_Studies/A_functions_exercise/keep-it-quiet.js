@@ -1,6 +1,11 @@
+// let keepItQuiet = function (str) {
+//     let lowerCase = str.toLowerCase();
+//     return lowerCase + "...";
+// }
+
+//OR
 let keepItQuiet = function (str) {
-    let lowerCase = str.toLowerCase();
-    return lowerCase + "...";
+    return str.toLowerCase() + '...';
 }
 
 console.log(keepItQuiet("HOORAY")); // 'hooray...'
