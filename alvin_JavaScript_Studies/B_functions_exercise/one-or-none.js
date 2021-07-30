@@ -1,11 +1,17 @@
 let oneOrNone = function (boo1, boo2) {
-    if (boo1 && boo2 === true) {
-        return false;
-    }   else if (boo1 || boo2 === true) {
+    if ((boo1 || boo2) && !(boo1 && boo2)) {
         return true;
     }   else {
         return false;
     }
+
+    // if (boo1 && boo2 === true) {
+    //     return false;
+    // }   else if (boo1 || boo2 === true) {
+    //     return true;
+    // }   else {
+    //     return false;
+    // }
 }
 
 

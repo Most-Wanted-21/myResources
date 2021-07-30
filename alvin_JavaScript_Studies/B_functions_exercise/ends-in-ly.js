@@ -1,9 +1,16 @@
 let endsInLy = function (str) {
-    if (str[str.length - 1] === 'y' && [str.length -2 === 'l']) {
-        return true;
-    }   else {
-        return false;
-    }
+    // let secondLast = str[str.length - 2];
+    // let last = str[str.length - 1];
+    // return secondLast === 'l' && last === 'y';
+
+    // OR
+    return str.endsWith('ly');
+    //my solution below does not work!
+    // if (str[str.length - 1] === 'y' && [str.length -2 === 'l']) {
+    //     return true;
+    // }   else {
+    //     return false;
+    // }
 }
 
 

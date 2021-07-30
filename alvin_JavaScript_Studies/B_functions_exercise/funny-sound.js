@@ -1,7 +1,6 @@
 let funnySound = function (str1, str2) {
-    return (str1[0,1,2] + str2[0,1,2])
+    return str1.slice(0, 3) + str2.slice(0, 3);
 }
-
 
 
 // Write a function `funnySound` that accepts two strings as arguments. The function should return a

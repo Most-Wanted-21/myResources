@@ -1,10 +1,5 @@
 let startsWithR = function (str) {
-    let firstChar = str.indexOf[0];
-    if (firstChar === 'r' || 'R') {
-        return true;
-    } else {
-        return false;
-    }
+    return str[0] === 'r' || str[0] === 'R';
 }
 
 

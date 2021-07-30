@@ -1,4 +1,10 @@
-
+let stringSize = function (str) {
+    if (str.length < 5) {
+        return 'small';
+    } else if (str.length == 5) {
+        return 'medium';
+    } else return 'large';
+}
 
 
 
