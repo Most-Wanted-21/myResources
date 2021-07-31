@@ -1,5 +1,5 @@
 let caseChange = function (str, val) {
-  if (val === true) {
+  if (val) {
     return str.toUpperCase();
   } else return str.toLowerCase();
 }

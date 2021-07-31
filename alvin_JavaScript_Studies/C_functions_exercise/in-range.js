@@ -1,5 +1,5 @@
 let inRange = function (min, max, n) {
-  return (n >= min && n <= max);
+  return n >= min && n <= max;
 }
 
 

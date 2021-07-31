@@ -1,9 +1,12 @@
 let divisible = function (num1, num2) {
-  let result = (num1 % num2)
-  if (result > 0) {
-    return false;
-  } else return true;
-  // if (num1 % num2 === Number >= 0) {
+  return num1 % num2 === 0;
+// //Or:
+//   if (num1 % num1 === 0) {
+//     return true;
+//   } else return false;
+  // // my lengthy solution:
+  // let result = (num1 % num2)
+  // if (result > 0) {
   //   return false;
   // } else return true;
 }
